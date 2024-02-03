@@ -1,0 +1,244 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0, 0, 0);
+  }
+
+
+
+  
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    z-index: 10000;
+}
+
+.h1 {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    align-items: center;
+    padding: 20px 550px 30px;
+}
+
+.ul li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+   color: brown;
+}
+
+.header .nav ul li a {
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    transition: all .2s ease;
+}
+
+.header .nav ul li a:hover {
+    background-color: cadetblue;
+}
+
+.header .nav ul li ul {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    background-color: rgb(1, 1, 1, 0.7);
+    display: none;
+}
+
+a img {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    align-items: center;
+}
+
+@media (max-width:700px) {
+    header{
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+}
+
+.h2 {
+    color:#ffffff;
+   text-align: center;
+   font-size: 15px;
+    
+}
+
+.services {
+    font-size: 15px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 15px;
+    text-decoration: none;
+    background: url(/images/image11-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: 700px 10px;
+}
+
+.N-services {
+    text-align: center;
+}
+
+.Contenedor {
+     width: 100%;
+     max-width: 1000px;
+     margin: 160px;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.Tabla {
+    width: 35%;
+    height: 500px;
+    margin: 40px;
+    border: 2px solid #ffffff;
+    border-radius:30px;
+    box-shadow: 0px, 0px, 4px, 0px #ffffff;
+    padding: 60px;
+    text-align: center;
+    flex-grow: 0;
+    color: rgb(255, 255, 255);
+}
+
+.Tabla > h2 {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 45px;
+}
+
+.Tabla img {
+    width: 44px;
+    margin-bottom: 35px;
+}
+
+.Tabla > h3 {
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+
+.Tabla > p {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.boton {
+    display:inline-block ;
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(250, 181, 33) ;
+    text-decoration: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 60px;
+    margin: 0px;
+    border-radius: 40px;
+}
+
+.tabla:hover{
+    background: rgb(12, 14, 14);
+    color: #55223e;
+    transition: 0.1 all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.pie-pagina {
+    width: 100%;
+}
+
+.grup01 {
+    width: 100%;
+    margin: auto;
+    max-width: 1200px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.grup01 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grup01 .box figure img {
+  width: 300px;
+  height: auto;
+}
+
+.grup01 .box h2 {
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.grup01 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.grup01 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+
+}
+.grup01 .red-social a {
+    color: burlywood;
+}
+
+.grup02 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.grup02 small {
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px) {
+    .grup01 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
